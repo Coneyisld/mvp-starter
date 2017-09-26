@@ -1,0 +1,26 @@
+body{ 
+	margin:20px;
+	background-color: #1d438a;
+	color: #fff;
+}
+
+button {
+	color:#000;
+}
+
+span {
+	color: red;
+}
+
+img {
+	height: 125px;
+	width:200px;
+	border: 2px solid white; 
+}
+
+.adjacent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}

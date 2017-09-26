@@ -1,8 +1,8 @@
 import React from 'react';
 
 const ListItem = (props) => (
-  <div>
-    { props.item.description }
+  <div >
+    <button onClick={() => props.method(props.eachTeam.abbreviation)}> {props.eachTeam.abbreviation} </button>
   </div>
 )
 
